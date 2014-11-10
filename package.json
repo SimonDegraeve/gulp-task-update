@@ -30,9 +30,10 @@
   },
   "dependencies": {
     "gulp": "^3.8.10",
-    "gulp-task-lint": "git://github.com/SimonDegraeve/gulp-task-lint",
     "npm-check-updates": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-task-lint": "git://github.com/SimonDegraeve/gulp-task-lint"
+  },
   "keywords": []
 }
