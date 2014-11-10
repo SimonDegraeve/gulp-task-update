@@ -1,0 +1,38 @@
+{
+  "name": "gulp-task-update",
+  "description": "Update dependencies task for Gulp",
+  "version": "0.1.0",
+  "homepage": "https://github.com/SimonDegraeve/gulp-task-update",
+  "author": {
+    "name": "Simon Degraeve",
+    "email": "simon.degraeve@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SimonDegraeve/gulp-task-update.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimonDegraeve/gulp-task-update/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/SimonDegraeve/gulp-task-update/blob/master/licence"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.x",
+    "npm": ">=1.4.x"
+  },
+  "scripts": {
+    "test": "echo \"no tests configured\""
+  },
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-task-lint": "git://github.com/SimonDegraeve/gulp-task-lint",
+    "npm-check-updates": "^1.2.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
